@@ -5,7 +5,7 @@ Les données collectées sont transmises via Wi-Fi (ESP8266) et publiées sur un
 
 ## Fonctionnalités
 
-🔹 Lecture des capteurs :
+- Lecture des capteurs :
 
 ADXL345 : mesure des vibrations (axes X, Y, Z).
 
@@ -13,19 +13,19 @@ MLX90614 : mesure de la température par infrarouge.
 
 Microphone (ADC) : mesure du bruit (RMS).
 
-🔹 Contrôle des actionneurs :
+- Contrôle des actionneurs :
 
 Ventilateur (Fan) via PWM.
 
 Machine (Moteur) via PWM.
 
-🔹 Logique intégrée :
+- Logique intégrée :
 
 Si la température > 35 °C → ralentir la machine, activer le ventilateur à 100 %.
 
 Si la température < 30 °C → remettre la machine à 100 %, désactiver le ventilateur.
 
-🔹 Communication :
+- Communication :
 
 Connexion Wi-Fi via ESP8266 (AT Commands).
 
@@ -83,3 +83,4 @@ La logique de contrôle ajuste automatiquement la machine et le ventilateur.
 
 
 Ces données peuvent être visualisées avec MQTT Explorer, Node-RED ou Grafan
+
