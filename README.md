@@ -1,4 +1,4 @@
-# STM32 Factory Monitor
+# Système de maintenance basé sur STM32
 
 Ce projet est une application embarquée basée sur STM32, permettant de surveiller une machine industrielle en temps réel grâce à plusieurs capteurs (accéléromètre, capteur de température infrarouge, microphone).
 Les données collectées sont transmises via Wi-Fi (ESP8266) et publiées sur un serveur MQTT.
@@ -80,5 +80,6 @@ Les mesures des capteurs sont prises périodiquement.
 Les données sont publiées sur le broker MQTT.
 
 La logique de contrôle ajuste automatiquement la machine et le ventilateur.
+
 
 Ces données peuvent être visualisées avec MQTT Explorer, Node-RED ou Grafan
